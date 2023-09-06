@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap'); */
+
+@font-face {
+    font-family: 'Inter';
+    src: url("Inter/static/Inter-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url("Mulish/static/Mulish-Regular.ttf");
+    font-weight: 400;
+}
+
+h1 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 78px;
+    /* 130% */
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+}
